@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		ul li{
+			font-size: 25px;
+			list-style-type: none;
+			background: lightslategrey; border:1px white solid;float:left;width:120px;text-align: center;
+
+		}
+		a{
+           text-decoration: none; color: whitesmoke;}
+
+           li a{display:block;}
+           li a:hover{background-color:maroon;color:grey;}
+    #n{padding:0px;}
+        li li{display: none;}
+        ul li:hover li{display:block;}
+   #x{padding: 0px; 
+   	}
+   	ol li{
+display:none;
+   	}
+   ul li:hover ol li{
+display: block;
+
+	}	
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+	<ul>
+	<li><a href="">Home</a></li>
+	<li><a href="">About</a></li>
+   <li> <a href="">Contracts</a></li>
+	<li><a href="">Products</a>
+		<ul id="n">
+			<li><a href="#">Cars</a>
+				<ol id="x">
+					<li><a href="">Toyota</a></li>
+					<li><a href="">Rand</a></li>
+				</ol>
+
+			</li>
+			<li><a href="#">Phones</a></li>
+			<li><a href="#">Bike</a></li>
+			<li><a href="#">Electronics</a></li>
+		</ul>
+
+
+
+	</li>
+	<li><a href="">Users</a></li>
+</ul>
+</body>
+</html>
